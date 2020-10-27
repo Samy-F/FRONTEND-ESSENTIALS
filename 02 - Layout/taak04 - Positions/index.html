@@ -6,24 +6,40 @@
     <title>HTML CSS Positions</title>
     <style>
 
+        body {
+            height: 3000px;
+        }
+
         .children{
             padding: 5px;
         }
 
         .parent{
             background-color: blue;
+            position: sticky;
+            top: 0;
         }
 
         #child-1{
             background-color: greenyellow;
+            position: sticky;top: 0;
         }
 
         #child-2{
             background-color: orangered;
+            position: absolute;
         }
 
         #child-3{
             background-color: slateblue;
+            position: fixed;
+            bottom: 0px;;
+        }
+
+        #kop2 {
+            position: relative;
+            top: 30px;
+            right: 10px;;
         }
     </style>
 </head>
