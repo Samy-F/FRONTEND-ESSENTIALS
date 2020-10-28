@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #173f5f;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #0e2433;
+  justify-content: flex-end;
+  height: 5em;
+}
+
+#name {
+  color: white;
+  padding-left: 2em;
+  font-size: 1.3em;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+li {
+  padding: 1em;
+}
+
+li:hover {
+  background-color: #173f5f;
+  opacity: 0.7;
+  align-items: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
