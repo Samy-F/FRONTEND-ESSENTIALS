@@ -37,3 +37,10 @@ if(stopLichtKleur == 'rood') {
 } else {
     console.log('je kan doorrijden')
 }
+
+let codingIsCool = true;
+codingIsCool = false;
+let huidigJaartal = 2020;
+let geboorteJaar = 2003;
+
+let mijnLeeftijd = huidigJaartal - geboorteJaar;
