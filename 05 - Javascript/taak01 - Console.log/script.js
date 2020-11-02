@@ -28,3 +28,12 @@ let stemGerechtigeleeftijd = 18;
 if(mijnLeeftijd >= stemGerechtigeleeftijd) {
     alert("Je mag stemmen met de verkiezingen");
 }
+
+
+let stopLichtKleur = "rood";
+
+if(stopLichtKleur == 'rood') {
+    console.log('je moet stoppen!')
+} else {
+    console.log('je kan doorrijden')
+}
