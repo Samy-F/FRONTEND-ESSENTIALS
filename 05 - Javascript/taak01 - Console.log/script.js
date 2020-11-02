@@ -1,0 +1,1 @@
+console.log('mijn naam is Samy');
