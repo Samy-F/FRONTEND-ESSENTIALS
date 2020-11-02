@@ -20,3 +20,4 @@ let persoon = {
 
 console.log(persoon);
 console.log(persoon.voornaam);
+console.log(`Mijn naam is ${persoon.voornaam} ${persoon.achternaam} en mijn leeftijd is ${persoon.leeftijd} jaar`);
