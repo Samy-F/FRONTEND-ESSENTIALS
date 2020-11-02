@@ -8,3 +8,15 @@ let ikMagLegaalAlcoholKopen = false;
 let ikMagBrommerRijden = false;
 let SoftwareOntwikkeling = true;
 
+let persoon = {
+    voornaam: 'Samy',
+    achternaam: 'Farahat',
+    leeftijd: 17,
+    ikBenStemGerechtig: false,
+    ikMagLegaalAlcoholKopen: false,
+    ikMagBrommerRijden: false,
+    SoftwareOntwikkeling: true
+};
+
+console.log(persoon);
+console.log(persoon.voornaam);
