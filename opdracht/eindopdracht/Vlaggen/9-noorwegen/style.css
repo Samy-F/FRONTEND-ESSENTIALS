@@ -1,0 +1,100 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hieronder kun je gaan editen */
+
+#boven{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    background-color: white;
+}
+
+#b_links {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    border-right: solid white 20px;
+    opacity: 1;
+}
+
+#b_midden {
+    width: 100px;
+    height: 254%;
+    background-color: darkblue;
+    opacity: 1;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#b_rechts {
+    width: calc(70% - 140px);
+    height: 100%;
+    background-color: red;
+}
+
+#midden {
+    width: 100%;
+    height: 13%;
+    background-color: darkblue;
+    border-bottom: solid white 25px;
+    border-top: solid white 25px;
+    z-index: 0;
+}
+
+#onder{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+
+#o_links {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    border-right: solid white 20px;
+    opacity: 1;
+}
+
+#b_midden {
+    width: 100px;
+    height: 254%;
+    background-color: darkblue;
+    opacity: 1;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#o_rechts {
+    width: calc(70% - 140px);
+    height: 100%;
+    background-color: red;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

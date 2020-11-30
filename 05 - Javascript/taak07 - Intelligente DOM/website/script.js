@@ -13,3 +13,4 @@ let poster3 = document.querySelector("#poster3");
 poster1.style.backgroundColor = 'red';
 poster2.style.backgroundColor = 'white';
 poster3.style.backgroundColor = 'darkblue';
+

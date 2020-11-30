@@ -1,0 +1,33 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Hieronder kun je gaan editen */
+
+#linksboven{
+    width: 30%;
+    height: 50%;
+    background-color: darkblue;
+}
+
+#rechtsboven{
+    width: 70%;
+    height: 50%;
+    background-color: white;
+}
+
+#onder {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}

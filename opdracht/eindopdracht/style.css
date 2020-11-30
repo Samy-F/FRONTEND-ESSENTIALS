@@ -1,26 +1,165 @@
+body {
+    background-color: #1e3d59
+}
 
-.container{
+nav {
     display: flex;
-    
+    background-color: rgba(15, 37, 56, 0.81);
+    justify-content: flex-end;
+    padding: 0px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
 }
 
-.col{
-    margin: 2px;
+nav li {
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.button{
-    width: 300px;
-    height: 200px;
-    background-color: red;
-    margin: 2px;
+nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+}
+
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;;
+}
+
+nav li :hover {
+    background-color: rgb(32, 76, 114);
+}
+
+#nav_name {
+    margin-right: auto;
+}
+
+#tablediv {
+    margin: 80px 30px;
+    width: 80%;
+    height: 100%;
+}
+
+#g_info {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 98%;
+
+}
+
+#personen {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color: white;
+}
+
+th {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.29);
+}
+
+td{
+    background-color: rgba(15, 37, 56, 0.2);
     
 }
 
-.button span{
-    
-    font-size: 2em;
-    font-family: consolas;
+tbody {
+    border-radius: 5px;
 }
+
+td, th {
+    border: 1px solid rgba(46, 68, 88, 0.71);
+    padding: 10px;
+}
+
+
+/** css voor de vlaggen **/
+
+#titel {
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 40px;
+    margin: 50px;
+    width: 100%;
+}
+
+#vlaggendiv {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.vlag_col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 220px;
+    height: 300px;
+    background-color: 	rgba(104, 104, 104, 0.19);
+    border: 1px solid rgba(46, 68, 88, 0.71);
+    box-shadow: 3px 3px rgb(15, 37, 56);
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.info {
+    
+}
+
+.img_div {
+    height: 50%;
+    width: 100%;
+}
+
+.vlagimg {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.vakje {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    margin: auto 0;
+}
+
+button:hover {
+    background-color: rgba(245, 245, 245, 0.56);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#polenimg {
+    height: 53%;
+}
+
+#chilliimg {
+    height: 55%;
+}
+
+

@@ -1,0 +1,42 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hieronder kun je gaan editen */
+
+#b1{
+    height: 37%;
+    background-color: cornflowerblue;
+}
+
+#b2 {
+    height: 3%;
+    background-color: white;
+}
+
+#b3 {
+    height: 20%;
+    background-color: black;
+    border-bottom: solid white 20%;
+}
+
+#b4 {
+    height: 3%;
+    background-color: white;
+}
+
+#b5{
+    height: 37%;
+    background-color: cornflowerblue;
+}
+

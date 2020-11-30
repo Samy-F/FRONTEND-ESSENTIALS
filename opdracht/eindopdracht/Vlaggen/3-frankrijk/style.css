@@ -1,0 +1,31 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Hieronder kun je gaan editen */
+
+#bovenkant{
+    width: 100%;
+    background-color: red;
+}
+
+#midden {
+    width: 100%;
+    background-color: white;
+}
+
+#onderkant{
+    width: 100%;
+    background-color: blue;
+}
+
